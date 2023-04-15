@@ -1,4 +1,22 @@
-﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.StringLibrary FirstBuild="True" />
+﻿<Properties StartupConfiguration="{5E8AB854-D4C5-43FD-8407-1C38F64FD497}|Default">
+  <MonoDevelop.Ide.ItemProperties.ShowCase PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShowCase/Program.cs">
+    <Files>
+      <File FileName="StringLibrary/Class1.cs" Line="3" Column="27" />
+      <File FileName="ShowCase/Program.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClassLibraryProjects" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
