@@ -28,7 +28,8 @@ steps:
   inputs:
     command: 'push'
     feedsToUse: 'select'
-    vstsFeed: '1072516'
-    packagePath: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    feedType: 'external'
+    feedUri: 'https://pkgs.dev.azure.com/1072516/_packaging/1072516/nuget/v3/index.json'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'packageVersion'
