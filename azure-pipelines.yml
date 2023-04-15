@@ -1,4 +1,3 @@
-trigger:
 - main
 
 pool:
@@ -24,8 +23,14 @@ steps:
     arguments: '--configuration $(buildConfiguration)'
     packDestination: '$(Build.ArtifactStagingDirectory)'
 
+- task: NuGetAuthenticate@0
+  inputs:
+    nuGetServiceConnections: 'https://pkgs.dev.azure.com/1072516/_packaging/1072516/nuget/v3/index.json'
+
 - task: NuGetCommand@2
   inputs:
-    command: pack
-    packagesToPack: '**/*.csproj'
-    packDestination: '$(Build.ArtifactStagingDirectory)'
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '1072516'
+    allowPackageConflicts: true
