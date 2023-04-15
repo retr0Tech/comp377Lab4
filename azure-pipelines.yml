@@ -28,7 +28,7 @@ steps:
 
 - task: NuGetAuthenticate@0
   inputs:
-    nuGetServiceConnections: 'retr0Tech'
+    nuGetServiceConnections: '1072516'
 
 - task: NuGetCommand@2
   inputs:
