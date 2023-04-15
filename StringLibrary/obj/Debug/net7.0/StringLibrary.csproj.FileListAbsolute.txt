@@ -1,0 +1,12 @@
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/bin/Debug/net7.0/StringLibrary.deps.json
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/bin/Debug/net7.0/StringLibrary.dll
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/bin/Debug/net7.0/StringLibrary.pdb
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/StringLibrary.csproj.AssemblyReference.cache
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/StringLibrary.AssemblyInfoInputs.cache
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/StringLibrary.AssemblyInfo.cs
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/StringLibrary.csproj.CoreCompileInputs.cache
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/StringLibrary.dll
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/refint/StringLibrary.dll
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/StringLibrary.pdb
+/Users/retr0tech/Projects/ClassLibraryProjects/StringLibrary/obj/Debug/net7.0/ref/StringLibrary.dll
