@@ -26,10 +26,6 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    command: 'push'
-    feedsToUse: 'select'
-    feedType: 'external'
-    feedUri: 'https://pkgs.dev.azure.com/1072516/_packaging/1072516/nuget/v3/index.json'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
-    versioningScheme: 'byEnvVar'
-    versionEnvVar: 'packageVersion'
+    command: pack
+    packagesToPack: '**/*.csproj'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
