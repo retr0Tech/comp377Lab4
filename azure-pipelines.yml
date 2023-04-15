@@ -1,3 +1,5 @@
+# File: azure-pipeline.yml
+
 trigger:
 - main
 
@@ -35,4 +37,3 @@ steps:
     nuGetFeedType: 'internal'
     publishVstsFeed: '1072516'
     allowPackageConflicts: true
-
